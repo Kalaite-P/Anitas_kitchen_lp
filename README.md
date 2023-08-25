@@ -1,4 +1,4 @@
-# StreetFood Website
+# Anita's Kitchen Website Landing Page
 This is a simple project for reproducing [this](https://drive.google.com/file/d/11P0krIK0s0M2uo8BgU_fPFyEmpHtC4zt/view) given sample of a restaurant's website landing page. The instructions are to employ HTML and CSS concepts in the project.
 
 You can find the project application [here](https://kalaite-p.github.io/Anitas_kitchen_lp/).
