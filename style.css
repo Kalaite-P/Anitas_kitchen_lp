@@ -5,7 +5,7 @@ body{
 }
 .homepage {
     background-image: url(assets/backgrounds/landing.jpg);
-    height:600px;
+    height:630px;
     position: relative;
 }
 .hr {
@@ -20,11 +20,43 @@ body{
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 60%;
-    font-size: 38px;
+    top: 58%;
+    font-size: 36px;
     text-align: center;
     color: white;
-    width: 42%;
+    width: 40%;
     font-weight: lighter;
     font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
 }
+.Happyhour {
+    width: 100%;
+    height: 200px;
+    display: inline-flex;
+}
+.Happyhour table {
+    width: 25%;
+    border-style: none;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.Happyhour tr{
+    height: 100px;
+}
+#hh {
+    color: rgb(105, 104, 104);
+    background-color: gainsboro;
+}
+#pt {
+    color: white;
+    background-color: orangered;
+}
+.Happyhour img {
+    width: 25%;
+    position: relative;
+}
+
+
+
+
