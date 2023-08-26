@@ -10,13 +10,21 @@ body{
 }
 .hr {
     width: 50px;
-    left: 10%;
+    left: 6%;
     top: 10%;
     position: absolute;
+    size: 50px;
+    color: whitesmoke;
 }
 .logo{
-    left: 50%;
-    top: 50%;
     position: absolute;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    width: 42%;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
 }
