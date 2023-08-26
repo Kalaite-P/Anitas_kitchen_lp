@@ -2,5 +2,21 @@ body{
     padding: 0;
     margin: 0;
     width: 100%;
-    overflow-x: hidden;
+}
+.homepage {
+    background-image: url(assets/backgrounds/landing.jpg);
+    height:600px;
+    position: relative;
+}
+.hr {
+    width: 50px;
+    left: 10%;
+    top: 10%;
+    position: absolute;
+}
+.logo{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50% -50%);
 }
