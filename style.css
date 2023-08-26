@@ -52,10 +52,47 @@ body{
     color: white;
     background-color: orangered;
 }
-.Happyhour img {
-    width: 25%;
+.breakfast {
     position: relative;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 35px;
+    font-style: italic;
 }
+.breakfasttxt {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.lunch {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 35px;
+    font-style: italic;
+    opacity: 0.3;
+}
+.lunchtxt {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.dinner {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 35px;
+    font-style: italic;
+}
+.dinnertxt {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
 
 
 
