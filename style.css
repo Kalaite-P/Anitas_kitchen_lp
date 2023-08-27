@@ -168,6 +168,19 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    height: 400px;
+    width: 80%;
+    border-collapse: collapse;
+    
+}
+.menu th{
+    font-size: 25px;
+    background-color: grey;
+    padding: 15px;
+    width: 20%;
+}
+.menu th:first-child {
+    background-color: white;
 }
 .customers{
     height: 400px;
@@ -232,9 +245,25 @@ body{
     height: 300px;
     background-color: #F15A29;
     color: white;
+    position: relative;
 }
 .footer table {
-    margin-left: 40%;
+    position: absolute;
+    left: 45%;
+    padding-top: 20px;   
+}
+.footer td {
+    display: inline-flex;  
+}
+.footer img {
+    margin-right: 20px;
+}
+.footer td:nth-child(2){
+    margin-top: 0;
+}
+.footer td:last-child {
+    margin-top: 7px;
+    text-align: center;
 
 }   
 
