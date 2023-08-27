@@ -100,7 +100,8 @@ body{
 }
 .fastfood table{
     border-style: solid;
-    border-color: rebeccapurple;
+    border-color: white;
+    box-shadow: 0.5px 0.5px 2px 2px rgba(128, 128, 128, 0.197);
     border-width: 15px;
     margin-left: 120px;
 }
@@ -146,7 +147,8 @@ body{
  }
  .drinks table{
     border-style: solid;
-    border-color: rebeccapurple;
+    border-color: white;
+    box-shadow: 0.5px 0.5px 2px 2px rgba(128, 128, 128, 0.197);
     border-width: 15px;
     margin-left: 120px;
 }
@@ -171,6 +173,24 @@ body{
     height: 400px;
     width: 100%;
     background-color: white;
+    position: relative;
+}
+.customers table {
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-align: center;
+    font-size: 17px;
+    color: gray;
+    padding: 20px;
+    box-shadow: 0.5px 0.5px 2px 2px rgba(128, 128, 128, 0.197);   
+}
+.customers td:first-child {
+    border-right: 0.5px solid gray;   
 }
 .delivery {
     width: 100%;
