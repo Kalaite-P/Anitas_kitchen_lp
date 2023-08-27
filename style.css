@@ -162,25 +162,45 @@ body{
     opacity: 0.8;
     position: relative;
  }
-.menu table{
-    background-color: white;
-    position: absolute;
+ .background {
+    width: 80%;
+    height: 400px;
+    position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 400px;
+    background-color: white;
+
+ }
+.menuitems table{
+    height: 60px;
     width: 80%;
     border-collapse: collapse;
     
 }
-.menu th{
+.menuitems th{
     font-size: 25px;
     background-color: grey;
     padding: 15px;
     width: 20%;
 }
-.menu th:first-child {
+.menuitems th:first-child {
     background-color: white;
+}
+.menuimg table {
+    width: 80%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    display: inline-flex;
+}
+#names {
+    color: #F15A29;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 .customers{
     height: 400px;
