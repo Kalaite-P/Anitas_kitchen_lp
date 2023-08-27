@@ -2,12 +2,14 @@ body{
     padding: 0;
     margin: 0;
     width: 100%;
+    overflow-x: hidden;
 }
 .homepage {
     background-image: url(assets/backgrounds/landing.jpg);
     height:630px;
     width: 100%;
     position: relative;
+    object-fit: cover;
 }
 .hr {
     width: 60px;
@@ -104,9 +106,13 @@ body{
     box-shadow: 0.5px 0.5px 2px 2px rgba(128, 128, 128, 0.197);
     border-width: 15px;
     margin-left: 120px;
+    
 }
 .fastfood td {
-    padding: 0px; 
+    padding: 0px;
+ }
+ .fastfood td:last-child {
+    border-collapse: collapse;
  }
 .fastfoodtxt {
     color: rgb(101, 101, 101);
@@ -235,6 +241,19 @@ body{
 }
 .customers td:first-child {
     border-right: 0.5px solid gray;   
+}
+.customers span {
+    padding: 10px;
+}
+.customers span:first-child {
+    color: #F15A29;
+    font-size: 30px;
+    font-weight: bold;
+}
+.customers span:last-child {
+    color: #F15A29;
+    font-size: 30px;
+    font-weight: bold;
 }
 .delivery {
     width: 100%;
