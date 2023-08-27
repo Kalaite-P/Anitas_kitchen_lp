@@ -6,6 +6,7 @@ body{
 .homepage {
     background-image: url(assets/backgrounds/landing.jpg);
     height:630px;
+    width: 100%;
     position: relative;
 }
 .hr {
@@ -92,14 +93,14 @@ body{
     position: absolute;
 }
 .fastfood {
-    height: 650px;
+    height: 500px;
     width: 100%;
     margin-top: 100px;
     display: inline-flex;
 }
 .fastfood table{
     border-style: solid;
-    border-color: rgba(255, 255, 255);
+    border-color: rebeccapurple;
     border-width: 15px;
     margin-left: 120px;
 }
@@ -119,6 +120,38 @@ body{
     font-weight: bold;
     border-color: #F15A29;
     height: 50px;
+    width: 200px;
+ }
+ .drinks {
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    display: inline-flex;
+}
+.drinkstxt {
+    color: rgb(101, 101, 101);
+    font-size: 20px;
+    width: 30%;
+    margin-left: 120px;
+    text-align: right;
+ }
+ .drinkstxt button{
+    color: #F15A29;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-color: #F15A29;
+    height: 50px;
+    width: 200px;
+ }
+ .drinks table{
+    border-style: solid;
+    border-color: rebeccapurple;
+    border-width: 15px;
+    margin-left: 120px;
+}
+.drinks td {
+    padding: 0px; 
  }
 
 
