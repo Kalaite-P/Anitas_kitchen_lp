@@ -167,6 +167,11 @@ body{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.customers{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+}
 
 
 
