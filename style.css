@@ -176,6 +176,36 @@ body{
     width: 100%;
     height: 300px;
     background-image: url(assets/backgrounds/subscribe.jpg);
+    position: relative;
+}
+.deliverytxt {
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.deliverytxt input {
+    width: 60%;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.201);
+    border: none;
+    border-radius: 2px;
+}
+::placeholder{
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.811);
+    font-size: 20px;
+}
+.deliverytxt button{
+    background-color: #F15A29;
+    color: rgba(255, 255, 255, 0.811);
+    height: 45px;
+    width: 32%;
+    border: none;
+    font-size: 20px;
+    margin-left: 25px;
+    border-radius: 2px;
 }
 .footer {
     width: 100%;
@@ -185,8 +215,8 @@ body{
 }
 .footer table {
     margin-left: 40%;
-    padding-top: 30px;
-}
+
+}   
 
 
 
